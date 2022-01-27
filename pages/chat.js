@@ -3,13 +3,13 @@ import React from 'react'
 import appConfig from '../config.json'
 
 export default function ChatPage() {
-  const [mensagem, setMensagem] = React.useState('oi')
+  const [mensagem, setMensagem] = React.useState('')
   const [listaDeMensagens, setListaDeMensagens] = React.useState([])
 
   function handleNonaMensagem(novaMensagem) {
     const mensagem = {
       id: listaDeMensagens.length + 1,
-      de: 'vanessametonini',
+      de: 'ggermano7',
       texto: novaMensagem
     }
     setListaDeMensagens([
@@ -177,7 +177,7 @@ function MessageList(props) {
                   display: 'inline-block',
                   marginRight: '8px'
                 }}
-                src={`https://github.com/vanessametonini.png`}
+                src={`https://github.com/ggermano7.png`}
               />
               <Text tag="strong">
                   {mensagem.de}
