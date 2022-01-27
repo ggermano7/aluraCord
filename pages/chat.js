@@ -6,7 +6,7 @@ export default function ChatPage() {
   const [mensagem, setMensagem] = React.useState('')
   const [listaDeMensagens, setListaDeMensagens] = React.useState([])
 
-  function handleNonaMensagem(novaMensagem) {
+  function handleNovaMensagem(novaMensagem) {
     const mensagem = {
       id: listaDeMensagens.length + 1,
       de: 'ggermano7',
